@@ -74,7 +74,7 @@ public:
 // TODO 12: implement isSameSize
 bool isSameSize(const Rectangle& r1, const Rectangle& r2)  {
     
-    return r1.getArea() != r2.getArea(); } // stub
+    return r1.getArea() == r2.getArea(); } // stub
 
 
 
@@ -83,7 +83,7 @@ private:
     int value;
 public:
     // TODO 13: constructor with member initializer list
-    ConstDemo(int value) : value(0) {}  // stub — fix initializer
+    ConstDemo(int value) : value(value) {}  // stub — fix initializer
 
     // TODO 14: const getValue()
     int getValue() const { return value; }  // stub — add const
